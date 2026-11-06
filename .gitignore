@@ -9,4 +9,5 @@ __pycache__/
 .venv/
 venv/
 *.pyc
+*.tsbuildinfo
 .DS_Store
