@@ -20,8 +20,10 @@ El estado distingue entre entregables creados y trabajo que requiere personas, f
 - [x] Crear API FastAPI para catálogo de ejemplo, presupuesto, empleos y asistentes.
 - [x] Implementar selección de productos, presupuesto, saldo y monto por persona.
 - [ ] Conectar precios de comercios con fuente, ubicación y fecha verificables.
+- [x] Enlazar PRECOMPRA, fuente oficial para consultar precios vigentes por distrito y sucursal.
 - [x] Crear listado de ejemplo con estructura de enlace a fuente.
 - [ ] Incorporar ofertas reales, vigencia y enlace directo a la publicación original.
+- [x] Enlazar portales externos de búsqueda para consultar oportunidades recientes.
 
 ## Fase 3 — Recomendaciones y asistencia
 
@@ -39,5 +41,6 @@ El estado distingue entre entregables creados y trabajo que requiere personas, f
 - [x] Preparar workflow manual de publicación de frontend en GitHub Pages.
 - [ ] Habilitar Pages, ejecutar publicación y desplegar el backend en un servicio adecuado.
 - [x] Documentar los límites de datos y recomendaciones de la demo.
+- [x] Documentar fuentes consultadas y requisitos para integrarlas.
 
 Las fechas, fuentes de datos y tecnologías pueden ajustarse según recursos y validación.

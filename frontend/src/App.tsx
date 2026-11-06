@@ -192,6 +192,7 @@ function ShoppingPage({ budget, setBudget, householdSize, setHouseholdSize, prod
     <>
       <PageHeading eyebrow="COMPRAS Y PRESUPUESTO" title="Haz que tu lista tenga sentido para ti." description="Cuéntanos cuánto quieres gastar y cuáles productos necesitas. La sugerencia solo usa valores de muestra." />
       <div className="demo-banner compact"><span className="banner-icon" aria-hidden="true">ⓘ</span><p>Los precios son ficticios, no están ligados a una tienda ni están vigentes.</p></div>
+      <div className="source-shortcut"><span className="source-icon" aria-hidden="true">↗</span><div><strong>¿Quieres consultar precios vigentes?</strong><p>El portal oficial PRECOMPRA permite comparar productos por distrito y sucursal.</p></div><a href="https://precompra.defensoria.gob.sv/" target="_blank" rel="noreferrer">Ir a PRECOMPRA ↗</a></div>
       <div className="planner-layout">
         <form className="panel planner-form" onSubmit={onSubmit}>
           <div className="panel-heading"><span className="step-dot">1</span><div><h2>Define tus prioridades</h2><p>Empieza con lo que tienes disponible.</p></div></div>
@@ -230,6 +231,7 @@ function JobsPage({ results, skillsInput, setSkillsInput, location, setLocation,
     <>
       <PageHeading eyebrow="OPORTUNIDADES" title="Explora posibilidades para tu siguiente paso." description="Indica algunas habilidades y una ubicación para ordenar los ejemplos que aparecen en esta demo." />
       <div className="demo-banner compact"><span className="banner-icon" aria-hidden="true">ⓘ</span><p>No se muestran vacantes activas. Los cargos y enlaces son ilustrativos, no anuncios de empleo.</p></div>
+      <div className="source-shortcut job-source-shortcut"><span className="source-icon" aria-hidden="true">↗</span><div><strong>Busca publicaciones recientes</strong><p>Abre un portal de empleo y confirma fecha, requisitos y enlace original antes de aplicar.</p></div><div className="source-actions"><a href="https://www.tecoloco.com.sv/empleo/qa" target="_blank" rel="noreferrer">Tecoloco · QA ↗</a><a href="https://sv.linkedin.com/jobs/qa-empleos" target="_blank" rel="noreferrer">LinkedIn · QA ↗</a></div></div>
       <div className="job-layout">
         <form className="panel match-form" onSubmit={onSubmit}>
           <span className="form-icon" aria-hidden="true">✳</span><h2>¿Qué sabes hacer?</h2><p>Agrega habilidades separadas por comas.</p>

@@ -59,6 +59,7 @@ GitHub Actions ejecuta las pruebas de API y compila el frontend en cada pull req
 - [Historias de usuario](docs/HISTORIAS_USUARIO.md) — casos y aceptación.
 - [Guía de validación](docs/VALIDACION_USUARIOS.md) — tareas para sesiones futuras.
 - [Límites de la demo](docs/LIMITACIONES_DEMO.md) — datos de ejemplo y requisitos antes de producción.
+- [Fuentes consultadas](docs/FUENTES.md) — portales oficiales y de empleo que sirven para validar información actual.
 - [Publicación](docs/PUBLICACION.md) — pasos para Pages y alojamiento backend.
 - [Reconocimiento](docs/RECONOCIMIENTO.md) — información del Challenge #AIForImpact.
 
